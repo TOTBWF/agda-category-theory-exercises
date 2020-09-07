@@ -1,0 +1,17 @@
+* Exercies for Category Theory in Agda
+  These exercises are meant as a companion to the series of
+  pseudo-lectures I will be running on my twitch channel
+  (https://www.twitch.tv/totbwf), every Monday at 5pm PST.
+
+  However, I will not be giving an introduction to agda, as Philip Wadler
+  has done a much better job than I could ever hope to!
+  The first few parts of Section 1 of 'Programming Language Foundations in Agda'
+  form an excellent introduction to the language. It can be found at:
+  https://plfa.github.io/#part-1-logical-foundations
+
+  *Please* do not post solutions to these exercises online. Doing so
+   gives others an out when they get momentarily stuck, which is when
+   a lot of learning happens. If you do get really stuck, feel free to
+   reach out to me on the FP Slack (TOTBWF at https://fpchat-invite.herokuapp.com/),
+   Zulip (Reed Mullanix on https://funprog.zulipchat.com), or shoot me
+   an email.
