@@ -28,6 +28,7 @@ record Monoid (A : Set) : Set₁ where
     identityʳ : ∀ {x} → x ∙ ε ≡ x
 
 -- Exercise 1 (*): Prove that '0' is the right-identity to +
+-- HINT: 'cong' lets us take a proof that 'x ≡ y', and show that 'f x ≡ f y'
 +-monoid : Monoid ℕ
 +-monoid = record
   { _∙_ = _+_
@@ -44,7 +45,6 @@ record Monoid (A : Set) : Set₁ where
     identityˡ : ∀ (x : ℕ) → 0 + x ≡ x
     identityˡ x = refl
 
-    -- HINT: 'cong' lets us take a proof that 'x ≡ y', and show that 'f x ≡ f y'
     identityʳ : ∀ (x : ℕ) → x + 0 ≡ x
     identityʳ x = {!!}
 
